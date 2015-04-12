@@ -70,7 +70,7 @@ a bank
 ...
 
 
-The list goes on{% marginnote '...and is probably worth its own post' %}. The key point is that OAIS is generalizable because it is a more explicit version of Shannon's model. Where Shannon has an encoder and decoder in the system, OAIS terms them ingest and dissemination and splits the connection between them into storage for metadata and the information itself. What OAIS does not include, and what I sneakily added, is noise.
+The list goes on<a name="translate"></a>.{% marginnote '...and is probably worth its own post' %} The key point is that OAIS is generalizable because it is a more explicit version of Shannon's model. Where Shannon has an encoder and decoder in the system, OAIS terms them ingest and dissemination and splits the connection between them into storage for metadata and the information itself. What OAIS does not include, and what I sneakily added, is noise.
 
 The entire purpose of OAIS is to protect long-term access to information against sources of noise. Noise can cover almost any threat to the stability of information. For example, noise could include cosmic rays (causing bit rot), user error (causing metadata loss), or shifting budget politics (causing funding shortages). A goal of any LAM should be to have policies, processes, and technologies to mitigate the threat of noise. The challenge is isolating those sources of noise.
 
