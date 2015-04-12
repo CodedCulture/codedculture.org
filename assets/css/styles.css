@@ -63,9 +63,15 @@ p {
 	font-style: italic;
 }
 
+.marginnote-symbol:before {
+  content: '> ';
+  font-weight: 600;
+  color: #9e0e40;
+}
+
 .marginnote:before {
 	content: '> ';
-	font-size: 600;
+	font-weight: 600;
 	color: #9e0e40;
 }
 

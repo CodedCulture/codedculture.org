@@ -9,7 +9,7 @@ require "shellwords"
     end
 
     def render(context)
-      "<span class='marginnote small'>#{@text[0]}</span> "
+      "<sup class='marginnote-symbol'></sup><span class='marginnote small'>#{@text[0]}</span> "
     end
   end
 end
