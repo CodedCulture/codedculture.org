@@ -43,6 +43,10 @@ p {
 	text-decoration: none;
 }
 
+.blogs .marginnote, .blogs .sidenote, .blogs sup {
+  display: none;
+}
+
 .post-title {
   margin-top: 8px;
 }

@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ---
-<div style="clear: both;">
+<div class="blogs" style="clear: both;">
 <div class="col-md-8 col-xs-12">
 <h1>Posts</h1>
 <!-- This loops through the paginated posts -->
