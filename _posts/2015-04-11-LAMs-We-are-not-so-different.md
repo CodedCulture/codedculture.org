@@ -8,7 +8,7 @@ twitter: nkrabben
 categories: OAIS archives
 ---
 
-When I connected information theory with the OAIS model in a [previous post](/blog/15/Reconciling-the-OAIS-Model-with-Information-Theory/#translate), I had a much larger goal in mind. The library, archive, and museum communities have spent decades cataloging their differences.{% marginnote '...or describing or registering them, depending on your profession.' %} While those differences are real and should be recognized, we have been ignoring our similarities. Because digital tools make sharing and collaboration much easier, we should be building on the similarities.
+When I connected information theory with the OAIS model in a [previous post](/blog/15/Reconciling-the-OAIS-Model-with-Information-Theory/#translate), I had a much larger goal in mind. The library, archive, and museum communities have spent decades cataloging their differences.{% marginnote '...or describing or registering them, depending on your profession.' %} While those differences are real and should be recognized, we have been ignoring our similarities. Because digital tools make sharing and collaboration much easier, we should be building on the similarities.<!--more-->
 
 From the Society of American Archives,{% sidenote 1 '[Overview of the Archives Profession](http://www2.archivists.org/profession)' %} these are our differences:
 
