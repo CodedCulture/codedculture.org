@@ -1,0 +1,21 @@
+baseurl: 
+title: CodedCulture
+subtitle: Digital Cutlural Heritage
+author: CodedCulture
+description: Home page for all CodedCulture projects
+paginate: 6
+markdown: Kramdown
+kramdown:  
+  input: GFM
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
+permalink: /blog/:short_year/:title
+timezone: America/New_York
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
