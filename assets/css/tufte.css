@@ -83,11 +83,10 @@ pre.code { padding: 0 2em; }
 
 .sidenote, .marginnote { float: right;
                           clear: right;
-                          margin-right: -60%;
-                          width: 50%;
+                          margin-right: -70%;
+                          width: 55%;
                           margin-top: 0;
                           margin-bottom: 0;
-                          line-height: 1.96;
                           vertical-align: baseline;
                           position: relative; }
 
