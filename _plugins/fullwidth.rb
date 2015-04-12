@@ -13,7 +13,7 @@ require "shellwords"
 
     def render(context)
       "<div><img class='fullwidth' src='#{@text[0]}'/></div> " +
-      "<p><span class='marginnote'>#{@text[1]}</span></p>"
+      "<p><span class='marginnote small'>#{@text[1]}</span></p>"
     end
   end
 end
