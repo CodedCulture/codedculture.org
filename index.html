@@ -1,0 +1,25 @@
+---
+layout: default
+title: Home
+---
+  
+  <div class="col-sm-4">
+  <p class='lead'>Our audiences are online. Our collections should meet them there.</p><p>Whether our collections began life in analog or was born digital, we can strengthen our cultural heritage through:<ul><li>metadata</li><li>digital preservation</li><li>access systems</li><li>measured evaluation</li></ul>CodedCulture looks at how to make that happen.</p>
+  <h2>Contact</h2>
+  <ul class="contact-list"><li><a href="http://github.com/codedculture"><span class="fa fa-github fa-2x"></span> Github</a></li><li><a href="mailto:admin@codedculture.com"><span class="fa fa-envelope-o fa-2x"></span> Email</a></li><li><a href="http://twitter.com/codedculture"><span class="fa fa-twitter fa-2x"></span> Twitter</a></li></ul>
+  </div>
+  <div class="col-sm-8">
+  <h1>Recent Posts</h1>
+  <ul class="content">
+    {% for post in site.posts limit:3 %}
+    <hr class="symbol">
+      <li class="listing">
+        
+        <a href="{{ post.url }}"><h2 class="contrast post-title">{{ post.title }}</h2></a>
+        <p>{% if post.author %}{{ post.author }}, {% endif %}<span class="date">{{ post.date | date: "%Y %B %d" }}</span><br />
+        <a class="accordion-toggle" data-toggle="collapse" data-text-swap="Preview -" href="#post{{ forloop.index }}">Preview +</a></p>
+        <div id="post{{ forloop.index }}" class="accordion-body collapse">{{ post.excerpt }}<a href="{{ post.url }}">Read the rest...</a></div>
+      </li>
+    {% endfor %}
+  </ul>
+  </div>
