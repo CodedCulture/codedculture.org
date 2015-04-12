@@ -43,7 +43,7 @@ p {
 	text-decoration: none;
 }
 
-.blogs .marginnote, .blogs .sidenote, .blogs sup {
+.listing-page .marginnote, .listing-page .sidenote, .listing-page sup {
   display: none;
 }
 
