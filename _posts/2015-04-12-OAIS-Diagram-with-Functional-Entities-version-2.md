@@ -5,6 +5,7 @@ date:   2015-04-12 17:32:00 EST
 author: Nick Krabbenhoeft
 email: nick@codedculture.org
 twitter: nkrabben
+comments: true
 categories: oais
 ---
 

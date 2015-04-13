@@ -5,6 +5,7 @@ date:   2015-02-12 23:33:00 EST
 author: Nick Krabbenhoeft
 email: nick@codedculture.org
 twitter: nkrabben
+comments: true
 categories: data funding
 ---
 
